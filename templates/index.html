@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brain Tumor Classification</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Brain Tumor <span>Classification</span></h1>
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <!-- <a href="#" class="navbar-logo"
+          >Brain Tumor <span>Classification</span></a
+        > -->
+
+        <div class="navbar-nav">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang Saya</a>
+          <!-- <a href="#menu">Menu</a> -->
+          <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+    </header>
+    <main>
+      <!-- Hero Secstion start -->
+      <article class="hero" id="home">
+        <section class="content">
+          <h1>
+            Klasifikasi Tumor Otak Menggunakan Model
+            <span>Convolutional Neural Network</span>
+          </h1>
+          <p>
+            Sebuah model deep learning yang membantu tanaga medis dalam
+            melakukan klasifikasi jenis tumor berdasarkan hasil citra Magnetic
+            Resonance Imaging (MRI)
+          </p>
+          <a href="../static/scan.html" class="cta">Scan Sekarang</a>
+        </section>
+      </article>
+      <!-- Hero Secstion end -->
+      <aside>
+        <!-- Abaout Section start -->
+        <section id="about" class="about">
+          <h2>Tentang <span>Saya</span></h2>
+          <div class="row">
+            <div class="about-img">
+              <img src="../static/img/Saya.jpg" alt="Tentang Saya" />
+              <h3>Halo, saya Fiqih Hidayaturrahman</h3>
+              <p>
+                Saya adalah Mahasiswa tingkat akhir yang sedang menempuh
+                pendidikan perkuliahan saya pada program studi S1 Teknik
+                Komputer di Universitas Dinamika (STIKOM Surabaya). saya
+                memiliki fokus pembelajaran pada pengembangan Machine Learning,
+                Deep Learning, Artificial Intelligence, dan Pemrograman Website.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Abaout Section end -->
+      </aside>
+
+      <!-- Contact Section start -->
+      <section id="contact" class="contact">
+        <h2>Hubungi <span>Saya</span></h2>
+        <p>
+          Sematkan kontak anda dibawah ini. Saya akan menghubungi anda segera.
+        </p>
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15829.36295975988!2d112.7748002!3d-7.315566200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7faec95555555%3A0xf13eec4465c5a263!2sUniversitas%20Dinamika%20(STIKOM%20Surabaya)!5e0!3m2!1sen!2sid!4v1709199259798!5m2!1sen!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
+
+          <form action="">
+            <div class="input-group">
+              <i data-feather="user"></i>
+              <input type="text" placeholder="nama" />
+            </div>
+
+            <div class="input-group">
+              <i data-feather="mail"></i>
+              <input type="text" placeholder="email" />
+            </div>
+
+            <div class="input-group">
+              <i data-feather="phone"></i>
+              <input type="text" placeholder="nomor handphone" />
+            </div>
+            <button type="submit" class="button">kirim pesan</button>
+          </form>
+        </div>
+      </section>
+      <!-- Contact Section end -->
+    </main>
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="mail"></i></a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">fiqihhidayaturrahman</a> | &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- feather icons -->
+    <!-- My Javascript -->
+    <script src="../static/js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
